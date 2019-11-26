@@ -1,28 +1,24 @@
 {
-    "tasks"  : [
+    "tasks": [
         {
-
             "label": "Build",
             "type": "shell",
             "command": "cargo",
             "args": [
                 "build"
             ],
-            "options" : {
-                "cwd" : "${workspaceFolder}"
+            "options": {
+                "cwd": "${workspaceFolder}"
             }
         },
         {
-
             "label": "Run",
             "type": "shell",
             "command": "'sleep 0.1 ; target/debug/adder'",
-            "args": [
-            ],
-            "options" : {
-                "cwd" : "${workspaceFolder}"
+            "args": [],
+            "options": {
+                "cwd": "${workspaceFolder}"
             }
         }
-
     ]
 }
